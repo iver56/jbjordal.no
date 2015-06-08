@@ -1,6 +1,6 @@
 ﻿@font-face {
     font-family: "Web Serveroff";
-    src: url("../fonts/Web Serveroff.otf");
+    src: url("../fonts/WebServeroff.otf");
 }
 
 body {
@@ -166,7 +166,7 @@ dd {
 	display: none;
 	position: absolute;
 	right: 15px;
-	top: 10px;
+	top: 8px;
 	width: 40px;
 	height: 40px;
 	padding: 0;
