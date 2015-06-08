@@ -99,19 +99,32 @@ header p.header-slogan {
 	font-size: 24px;
 }
 
-nav {
+#nav-mobile {
+	display: none;
+}
+
+#nav-desktop {
     width: 100%;
     height: 35px;
     background-image: url('../images/menybg.png');
     background-repeat: repeat-x;
 }
 
-.menuitem {
+#nav-desktop .menuitem {
     float: left;
     height: 35px;
     background-image: url('../images/menygrid.png');
     background-repeat: no-repeat;
     padding: 0 25px;
+}
+
+#nav-mobile .menuitem {
+    border-bottom: 1px #ccc solid;
+    height: 50px;
+}
+
+#nav-mobile .menuitem a {
+	line-height: 50px;
 }
 
 .menuitem a {
@@ -131,7 +144,6 @@ nav {
 	text-decoration: underline;
 }
 
-
 #content {
     max-width: 800px;
     margin-top: 20px;
@@ -150,8 +162,27 @@ dd {
 	margin-bottom: 1.5em;
 }
 
+.hamburger-menu-button {
+	display: none;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+	background-color: transparent;
+	outline-width: 0;
+}
+
+.hamburger-menu-button img {
+	width: 100%;
+	height: 100%;
+}
+
 @media screen and (max-width: 570px) {
-	header img {
+	header img.photo {
 		display: none;
 	}
 	
@@ -161,7 +192,17 @@ dd {
 }
 
 @media screen and (max-width: 840px) {
-	nav {
+	#nav-desktop {
 		display: none;
+	}
+	
+	.hamburger-menu-button {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 840px) {
+	#nav-mobile {
+		display: none !important;	
 	}
 }

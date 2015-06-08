@@ -11,19 +11,23 @@
 
 	<!-- #EndEditable -->
     <link href="styles/style.css" type="text/css" rel="stylesheet" />
+    <script src="js/main.js" type="text/javascript" async></script>
 </head>
 
 <body>
 
 <header>
-	<img src="images/jbj.png" alt="Biolog John Bjarne Jordal">
+	<img class="photo" src="images/jbj.png" alt="Biolog John Bjarne Jordal">
 	<div class="header-text">
 		<p class="header-name">Biolog J.B. Jordal AS</p>
 		<p class="header-slogan">Daglig leder John Bjarne Jordal</p>
 	</div>
+	<button class="hamburger-menu-button" onclick="toggleMobileMenu();">
+		<img src="images/hamburger-menu.png" alt="Meny">
+	</button>
 </header>
 
-<nav>
+<nav id="nav-desktop">
     <div class="menuitem">
         <a href="default.html">
         	Virksomhet
@@ -51,6 +55,35 @@
     </div>
     <div class="menuitem" style="width: 2px;"></div>
 </nav>
+
+<nav id="nav-mobile">
+    <div class="menuitem">
+        <a href="default.html">
+        	Virksomhet
+        </a>
+    </div>
+    <div class="menuitem">
+        <a href="prosjekter.html">
+        	Aktuelle prosjekter
+        </a>
+    </div>
+    <div class="menuitem">
+        <a href="publikasjoner.html">
+        	Publikasjoner
+        </a>
+    </div>
+    <div class="menuitem">
+        <a href="glimt14.html">
+        	Glimt fra artsmangfoldet
+        </a>
+    </div>
+    <div class="menuitem">
+    	<a href="kontakt.html">
+    		Kontakt
+    	</a>
+    </div>
+</nav>
+
 
 <div id="content">
 <!-- #BeginEditable "content" -->
