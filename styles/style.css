@@ -27,14 +27,32 @@ li {
     margin-top: 2px;
 }
 
-#footer {
-    font-size: 13px;
-}
-
 #tidsperiode {
     font-size: 19px;
     letter-spacing: 2px;
-    direction: rtl;
+	text-align: right;
+	margin: 20px 40px 10px 50px;
+	float:left;
+}
+
+#tidsperiode a {
+    color: #000;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#tidsperiode a:hover {
+    color: #000;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+#tidsperiode-mobile {
+	display: none;
+}
+
+#tidsperiode-mobile select {
+	width: 200px;
 }
 
 .valgt_periode {
@@ -48,22 +66,13 @@ li {
 
 #bildeliste {
     font-size: 13px;
+    float: left;
+    width: 500px;
+    margin: 12px 0px 0px 0px;
 }
 
 #bildeliste table tr td {
     border: 0 !important;
-}
-
-#tidsperiode a {
-    color: #000;
-    font-style: normal;
-    text-decoration: none;
-}
-
-#tidsperiode a:hover {
-    color: #000;
-    font-style: normal;
-    text-decoration: underline;
 }
 
 header {
@@ -166,7 +175,7 @@ dd {
 	display: none;
 	position: absolute;
 	right: 15px;
-	top: 8px;
+	top: 5px;
 	width: 40px;
 	height: 40px;
 	padding: 0;
@@ -191,7 +200,28 @@ dd {
 	}
 }
 
-@media screen and (max-width: 840px) {
+
+@media screen and (max-width: 700px) {
+	#tidsperiode {
+		display: none;
+	}
+	
+	#tidsperiode-mobile {
+		display: block;
+	}
+	
+	#bildeliste {
+	    width: 100%;
+	}
+	
+	#bildeliste img {
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+@media screen and (max-width: 850px) {
 	#nav-desktop {
 		display: none;
 	}
@@ -201,7 +231,7 @@ dd {
 	}
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 850px) {
 	#nav-mobile {
 		display: none !important;	
 	}

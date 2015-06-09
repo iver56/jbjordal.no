@@ -91,7 +91,7 @@
 	<h1>Glimt fra artsmangfoldet</h1>
 
     <div id="glimtcontainer">
-        <div id="tidsperiode" style="margin: 20px 40px 10px 50px; float:left">
+        <div id="tidsperiode">
             <a href="glimt14.html">2014</a><br />
             <span class="valgt_periode">2013</span><br />
             <a href="glimt12.html">2012</a><br />
@@ -100,7 +100,20 @@
             <a href="glimt09.html">2009</a><br />
             <a href="glimt08.html">2008</a><br />
         </div>
-        <div id="bildeliste" style="float: left; width: 500px; margin: 12px 0px 0px 0px">
+        <div id="tidsperiode-mobile">
+        	Velg år:
+        	<select onchange="navigateTo(this.value)">
+        		<option value="glimt14.html">2014</option>
+        		<option value="glimt13.html" selected>2013</option>
+        		<option value="glimt12.html">2012</option>
+        		<option value="glimt11.html">2011</option>
+        		<option value="glimt10.html">2010</option>
+        		<option value="glimt09.html">2009</option>
+        		<option value="glimt08.html">2008</option>
+        	</select>
+        </div>
+
+        <div id="bildeliste">
         <h3>
 		Beitemarkssopp fra Sør- og Midt-Norge</h3>
 		<p>

@@ -128,7 +128,7 @@ p.MsoNormal
 	<h1>Glimt fra artsmangfoldet</h1>
 
     <div id="glimtcontainer">
-        <div id="tidsperiode" style="margin: 20px 40px 10px 50px; float:left">
+        <div id="tidsperiode">
             <a href="glimt14.html">2014</a><br />
             <a href="glimt13.html">2013</a><br />
             <a href="glimt12.html">2012</a><br />
@@ -137,7 +137,20 @@ p.MsoNormal
             <a href="glimt09.html">2009</a><br />
             <a href="glimt08.html">2008</a><br />
         </div>
-        <div id="bildeliste" style="float: left; width: 500px; margin: 12px 0px 0px 0px">
+        <div id="tidsperiode-mobile">
+        	Velg år:
+        	<select onchange="navigateTo(this.value)">
+        		<option value="glimt14.html">2014</option>
+        		<option value="glimt13.html">2013</option>
+        		<option value="glimt12.html">2012</option>
+        		<option value="glimt11.html">2011</option>
+        		<option value="glimt10.html" selected>2010</option>
+        		<option value="glimt09.html">2009</option>
+        		<option value="glimt08.html">2008</option>
+        	</select>
+        </div>
+
+        <div id="bildeliste">
 			<h3 class="style4"><b>
 			<span style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: NO-BOK; mso-fareast-language: NO-BOK; mso-bidi-language: AR-SA">
 			Sopp</span></b></h3>
@@ -380,7 +393,7 @@ p.MsoNormal
 				<tr>
 					<td valign="top" style="width: 380pt; padding: 0cm 3.5pt 0cm 3.5pt">
 					<p class="MsoNormal">
-					<img src="images/glimt2010/Brudespore%26prestekrage.JPG" width="500" height="375" /></p>
+					<img src="images/glimt2010/Brudespore_og_prestekrage.JPG" width="500" height="375" /></p>
 					</td>
 				</tr>
 				<tr>
