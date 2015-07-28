@@ -1,238 +1,236 @@
 ﻿@font-face {
-    font-family: "Web Serveroff";
-    src: url("../fonts/WebServeroff.otf");
+  font-family: "Web Serveroff";
+  src: url("../fonts/WebServeroff.otf");
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    background-color: #EDF5E9;
-    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: #EDF5E9;
+  margin: 0;
 }
 
 h1 {
-    margin-top: 0;
-    text-shadow: 0px 0px 4px #919293;
-    font-weight: lighter;
-    font-size: 48px;
-    font-family: "Web Serveroff", Georgia, "Times New Roman", Times, serif;
+  margin-top: 0;
+  text-shadow: 0 0 4px #919293;
+  font-weight: lighter;
+  font-size: 48px;
+  font-family: "Web Serveroff", Georgia, "Times New Roman", Times, serif;
 }
 
 h3 {
-    margin-top: 25px;
-    font-size: 18px;
+  margin-top: 25px;
+  font-size: 18px;
 }
 
 li {
-    margin-top: 2px;
+  margin-top: 2px;
 }
 
 #tidsperiode {
-    font-size: 19px;
-    letter-spacing: 2px;
-	text-align: right;
-	margin: 20px 40px 10px 50px;
-	float:left;
+  font-size: 19px;
+  letter-spacing: 2px;
+  text-align: right;
+  margin: 20px 40px 10px 50px;
+  float: left;
 }
 
 #tidsperiode a {
-    color: #000;
-    font-style: normal;
-    text-decoration: none;
+  color: #000;
+  font-style: normal;
+  text-decoration: none;
 }
 
 #tidsperiode a:hover {
-    color: #000;
-    font-style: normal;
-    text-decoration: underline;
+  color: #000;
+  font-style: normal;
+  text-decoration: underline;
 }
 
 #tidsperiode-mobile {
-	display: none;
+  display: none;
 }
 
 #tidsperiode-mobile select {
-	width: 200px;
+  width: 200px;
 }
 
 .valgt_periode {
-    font-size: 24px;
-    font-weight: bolder;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 #bildeliste img {
-    margin: 5px 0px;
+  margin: 5px 0;
 }
 
 #bildeliste {
-    font-size: 13px;
-    float: left;
-    width: 500px;
-    margin: 12px 0px 0px 0px;
+  font-size: 13px;
+  float: left;
+  width: 500px;
+  margin: 12px 0 0 0;
 }
 
 #bildeliste table tr td {
-    border: 0 !important;
+  border: 0 !important;
 }
 
 header {
-    width: 100%;
-    height: 144px;
-    background-image: url('../images/header_bg.jpg'), url('../images/header_gradient.jpg');
-    background-repeat: no-repeat, repeat-x;
-    background-position: 0 0, 0 0;
-    background-size: 1013px 144px, 1px 144px;
+  width: 100%;
+  height: 144px;
+  background-image: url('../images/header_bg.jpg'), url('../images/header_gradient.jpg');
+  background-repeat: no-repeat, repeat-x;
+  background-position: 0 0, 0 0;
+  background-size: 1013px 144px, 1px 144px;
 }
 
 header img {
-	width: 225px;
-	height: 144px;
-	float: left;
+  width: 225px;
+  height: 144px;
+  float: left;
 }
 
 header .header-text {
-	font-family: "Web Serveroff", Georgia, "Times New Roman", Times, serif;
-	width: 300px;
-	float: left;
-	margin-left: 15px;
+  font-family: "Web Serveroff", Georgia, "Times New Roman", Times, serif;
+  width: 300px;
+  float: left;
+  margin-left: 15px;
 }
 
 header p.header-name {
-	margin: 0;
-	font-size: 40px;
-	padding-top: 40px;
+  margin: 0;
+  font-size: 40px;
+  padding-top: 40px;
 }
 
 header p.header-slogan {
-	margin: 0;
-	font-size: 24px;
+  margin: 0;
+  font-size: 24px;
 }
 
 #nav-mobile {
-	display: none;
+  display: none;
 }
 
 #nav-desktop {
-    width: 100%;
-    height: 35px;
-    background-image: url('../images/menybg.png');
-    background-repeat: repeat-x;
+  width: 100%;
+  height: 35px;
+  background-image: url('../images/menybg.png');
+  background-repeat: repeat-x;
 }
 
 #nav-desktop .menuitem {
-    float: left;
-    height: 35px;
-    background-image: url('../images/menygrid.png');
-    background-repeat: no-repeat;
-    padding: 0 25px;
+  float: left;
+  height: 35px;
+  background-image: url('../images/menygrid.png');
+  background-repeat: no-repeat;
 }
 
 #nav-mobile .menuitem {
-    border-bottom: 1px #ccc solid;
-    height: 50px;
+  border-bottom: 1px #ccc solid;
+  height: 50px;
 }
 
 #nav-mobile .menuitem a {
-	line-height: 50px;
+  line-height: 50px;
+  text-align: center;
 }
 
 .menuitem a {
-    width: 100%;
-    height: 100%;
-	display: block;
-	font-family: "Web Serveroff", Georgia, "Times New Roman", Times, serif;
-	line-height: 35px;
-	font-size: 22px;
-	text-align: center;
-	text-decoration: none;
-	color: black;
+  height: 100%;
+  display: block;
+  font-family: "Web Serveroff", Georgia, "Times New Roman", Times, serif;
+  line-height: 35px;
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  padding: 0 25px;
 }
 
-
 .menuitem a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 #content {
-    max-width: 800px;
-    margin-top: 20px;
-    padding: 10px 10px 10px 10px;
+  max-width: 800px;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
 }
 
 img {
-    border-width: 0px;
+  border-width: 0;
 }
 
 dt {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 dd {
-	margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .hamburger-menu-button {
-	display: none;
-	position: absolute;
-	right: 15px;
-	top: 5px;
-	width: 40px;
-	height: 40px;
-	padding: 0;
-	margin: 0;
-	border-width: 0;
-	background-color: transparent;
-	outline-width: 0;
+  display: none;
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+  background-color: transparent;
+  outline-width: 0;
+  cursor: pointer;
 }
 
 .hamburger-menu-button img {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (max-width: 570px) {
-	header img.photo {
-		display: none;
-	}
-	
-	header {
-	    background-position: -225px 0, 0 0;
-	}
+  header img.photo {
+    display: none;
+  }
+
+  header {
+    background-position: -225px 0, 0 0;
+  }
 }
 
-
 @media screen and (max-width: 700px) {
-	#tidsperiode {
-		display: none;
-	}
-	
-	#tidsperiode-mobile {
-		display: block;
-	}
-	
-	#bildeliste {
-	    width: 100%;
-	}
-	
-	#bildeliste img {
-		width: 100%;
-		height: auto;
-	}
+  #tidsperiode {
+    display: none;
+  }
+
+  #tidsperiode-mobile {
+    display: block;
+  }
+
+  #bildeliste {
+    width: 100%;
+  }
+
+  #bildeliste img {
+    width: 100%;
+    height: auto;
+  }
 
 }
 
 @media screen and (max-width: 850px) {
-	#nav-desktop {
-		display: none;
-	}
-	
-	.hamburger-menu-button {
-		display: block;
-	}
+  #nav-desktop {
+    display: none;
+  }
+
+  .hamburger-menu-button {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 850px) {
-	#nav-mobile {
-		display: none !important;	
-	}
+  #nav-mobile {
+    display: none !important;
+  }
 }
