@@ -205,6 +205,10 @@ thead {
   font-weight: bold;
 }
 
+figure {
+  margin: 0;
+}
+
 @media screen and (max-width: 570px) {
   header img.photo {
     display: none;
