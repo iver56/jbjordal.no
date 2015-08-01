@@ -54,12 +54,8 @@ li {
   display: none;
 }
 
-#tidsperiode-mobile select {
+#tidsperiode-mobile select, #tidsperiode-mobile #go-to-year-button {
   width: 100px;
-}
-
-#tidsperiode-mobile #go-to-year-button {
-  width: 50px;
 }
 
 .valgt_periode {
