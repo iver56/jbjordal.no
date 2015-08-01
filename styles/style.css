@@ -189,6 +189,22 @@ dd {
   height: 100%;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #999;
+}
+
+td {
+  padding: 0 8px;
+}
+
+thead {
+  font-weight: bold;
+}
+
 @media screen and (max-width: 570px) {
   header img.photo {
     display: none;
