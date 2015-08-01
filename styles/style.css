@@ -209,6 +209,10 @@ figure {
   margin: 0;
 }
 
+.glimt-table, .glimt-table * {
+  border: 0;
+}
+
 @media screen and (max-width: 570px) {
   header img.photo {
     display: none;
