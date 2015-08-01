@@ -23,6 +23,10 @@ h2 {
   font-size: 18px;
 }
 
+a {
+  text-decoration: underline;
+}
+
 li {
   margin-top: 2px;
 }
@@ -31,20 +35,19 @@ li {
   font-size: 19px;
   letter-spacing: 2px;
   text-align: right;
-  margin: 20px 40px 10px 50px;
+  margin: 24px 40px 10px 50px;
   float: left;
 }
 
 #tidsperiode a {
-  color: #000;
+  color: #444;
   font-style: normal;
-  text-decoration: none;
 }
 
 #tidsperiode a:hover {
   color: #000;
   font-style: normal;
-  text-decoration: underline;
+  text-shadow: 0 0 1px #bbb;
 }
 
 #tidsperiode-mobile {
@@ -72,7 +75,6 @@ li {
   font-size: 13px;
   float: left;
   width: 500px;
-  margin: 12px 0 0 0;
 }
 
 #bildeliste table tr td {
