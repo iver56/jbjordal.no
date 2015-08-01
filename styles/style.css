@@ -52,7 +52,11 @@ li {
 }
 
 #tidsperiode-mobile select {
-  width: 200px;
+  width: 100px;
+}
+
+#tidsperiode-mobile #go-to-year-button {
+  width: 50px;
 }
 
 .valgt_periode {
