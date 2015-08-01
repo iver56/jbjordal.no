@@ -180,8 +180,12 @@ dd {
   margin: 0;
   border-width: 0;
   background-color: transparent;
-  outline-width: 0;
+  outline-color: #666;
   cursor: pointer;
+}
+
+.hamburger-menu-button:hover {
+  transform: scale(1.08, 1.08);
 }
 
 .hamburger-menu-button img {
