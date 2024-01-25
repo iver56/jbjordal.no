@@ -1,373 +1,376 @@
-﻿<!DOCTYPE html>
-<html lang="nb">
-
-<!-- #BeginTemplate "index.dwt" -->
-
-<head>
-<meta charset="utf-8" />
-<meta content="width=device-width, initial-scale=1" name="viewport">
-<!-- #BeginEditable "doctitle" -->
-  <title>Glimt fra artsmangfoldet 2009 | Biolog J.B. Jordal</title>
-<!-- #EndEditable -->
-<link href="styles/style.css" rel="stylesheet" type="text/css" />
-<script async="" src="js/main.js" type="text/javascript"></script>
-</head>
-
-<body>
-
-<header>
-  <img alt="Biolog John Bjarne Jordal" class="photo" src="images/jbj.png">
-  <div class="header-text">
-    <p class="header-name">Biolog J.B. Jordal AS</p>
-    <p class="header-slogan">Daglig leder John Bjarne Jordal</p>
-  </div>
-  <button class="hamburger-menu-button" onclick="toggleMobileMenu();">
-  <img alt="Meny" src="images/hamburger-menu.png"></button>
-</header>
-<nav id="nav-desktop" role="navigation">
-  <div class="menuitem">
-    <a href="/">Virksomhet </a></div>
-  <div class="menuitem">
-    <a href="/prosjekter.html">Aktuelle prosjekter </a></div>
-  <div class="menuitem">
-    <a href="/publikasjoner.html">Publikasjoner </a></div>
-  <div class="menuitem">
-    <a href="/glimt14.html">Glimt fra artsmangfoldet </a></div>
-  <div class="menuitem">
-    <a href="/kontakt.html">Kontakt </a></div>
-  <div class="menuitem" style="width: 2px;">
-  </div>
-</nav>
-<nav id="nav-mobile" role="navigation">
-  <div class="menuitem">
-    <a href="/">Virksomhet </a></div>
-  <div class="menuitem">
-    <a href="/prosjekter.html">Aktuelle prosjekter </a></div>
-  <div class="menuitem">
-    <a href="/publikasjoner.html">Publikasjoner </a></div>
-  <div class="menuitem">
-    <a href="/glimt14.html">Glimt fra artsmangfoldet </a></div>
-  <div class="menuitem">
-    <a href="/kontakt.html">Kontakt </a></div>
-</nav>
-<div id="content">
-  <!-- #BeginEditable "content" -->
-
-
-  <h1>Glimt fra artsmangfoldet</h1>
-
-  <div id="glimtcontainer">
-    <div id="tidsperiode">
-      <a href="glimt14.html">2014</a><br>
-      <a href="glimt13.html">2013</a><br>
-      <a href="glimt12.html">2012</a><br>
-      <a href="glimt11.html">2011</a><br>
-      <a href="glimt10.html">2010</a><br>
-      <span class="valgt_periode">2009</span><br>
-      <a href="glimt08.html">2008</a><br>
-    </div>
-    <div id="tidsperiode-mobile">
-      <label for="select-year">Velg år:</label>
-      <select id="select-year"
-              onchange="document.getElementById('go-to-year-button').removeAttribute('disabled')">
-        <option value="glimt14.html">2014</option>
-        <option value="glimt13.html">2013</option>
-        <option value="glimt12.html">2012</option>
-        <option value="glimt11.html">2011</option>
-        <option value="glimt10.html">2010</option>
-        <option value="glimt09.html" selected>2009</option>
-        <option value="glimt08.html">2008</option>
-      </select>
-      <button type="button" id="go-to-year-button" disabled
-              onclick="navigateTo(document.getElementById('select-year').value)">
-        Gå til
-      </button>
-    </div>
-
-    <div id="bildeliste">
-      <h2>Spesielle funn i Rogaland</h2>
-      <figure><img alt="" src="images/glimt2009/Ruteskorpe.JPG" width="500" height="375">
-        <figcaption>
-          Ruteskorpe <i lang="la">Xylobolus frustulatus</i>
-          er en soppart på død ved av eik. Her er den avbildet på eik
-          ved Hausvikkammen i Strand kommune. Dette er en østlandsart
-          som det er få funn av på Vestlandet. Den står som nær truet
-          (NT) på rødlista 2010.<br>
-          <br>
-        </figcaption>
-      </figure>
-      <figure><img alt="" src="images/glimt2009/Punktlav.JPG" width="500" height="375">
-        <figcaption>
-          Grå punktlav <i lang="la">Punctelia subrudecta</i>
-          var tidligere kjent fra svartor ved Riskadalsvatnet i
-          Hjelmeland, og ble gjenfunnet i 2009. Dette er en sjelden,
-          sørlig-oseanisk lavart. Den står som sterkt truet (EN) på rødlista 2010.<br>
-          <br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Thelopsis_rubella.jpg" width="500" height="403">
-        <figcaption>
-          <i lang="la">Thelopsis rubella </i>er en
-          skorpelav uten norsk navn som ofte vokser på styva ask, her
-          ved Riskadalsvatnet i Hjelmeland. Den har bl.a. rødbrune
-          fruktlegemer og finnes mest på Sørvestlandet. Den står som
-          sårbar (VU) på rødlista 2010.<br>
-          <br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Indigobarksopp.JPG" width="500" height="375">
-        <figcaption>
-          Indigobarksopp <i lang="la">Pulcherricium
-          caeruleum</i> er en ganske sjelden vestlandsart som her er
-          fotografert på morken ved av svartor ved Riskadalsvatnet i
-          Hjelmeland. Den står som nær truet (NT) på rødlista 2010.<br>
-          <br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/OvreTysdalsvatnet.JPG" width="500" height="375">
-        <figcaption>
-          Ved Øvre Tysdalsvatnet i Hjelmeland
-          finnes landets største bestand av kløftgrimemose <i lang="la">Herbertus
-          aduncus</i>, her er en kløft hvor denne mosen danner
-          rødbrune tuer på berget, i et meget fuktig og vintermildt
-          klima.<br>
-          <br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Oyafossen.JPG" width="500" height="375">
-        <figcaption>
-          I fossesprøytsonen
-          ved Øyafossen i Trodla-Tysdal, Hjelmeland, finnes denne
-          bestanden av kløftgrimemose <i lang="la">Herbertus aduncus</i> (NT) og purpurmose (<i lang="la">Pleurozia
-          purpurea</i>). Det foreligger utbyggingsplaner for
-          vassdraget.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Gra_narremusserong.JPG" width="500" height="375">
-        <figcaption>
-          I Trodla-Tysdal,
-          Hjelmeland, finnes noen av de mest artsrike og velutviklete
-          naturbeitemarkene i Rogaland med hensyn til beitemarkssopp,
-          her den sjeldne grå narremusserong <i lang="la">Porpoloma metapodium</i>
-          (sterkt truet - EN - på rødlista 2010).<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Slimjordtunge.JPG" width="500" height="375">
-        <figcaption>
-          Slimjordtunge <i lang="la">Geoglossum difforme </i>
-          (sterkt truet - EN - på rødlista 2010)
-          er en av de sjeldneste jordtungene. I Trodla-Tysdal,
-          Hjelmeland, ble det funnet en ny, rikelig bestand av denne
-          arten.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Kystkorallav.JPG" width="500" height="375">
-        <figcaption>
-          Kystkorallav <i lang="la">Bunodophoron
-          melanocarpum</i> (nær truet -NT - på rødlista 2010) er en oseanisk lavart som finnes
-          på
-          bergvegger i fuktig og vintermildt lokalklima på Vestlandet,
-          her fotografert sør for Rettedal i Forsand.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Fiolett_greinkollesopp.JPG" width="500" height="375">
-        <figcaption>
-          Fiolett
-          greinkøllesopp <i lang="la">Clavaria
-          zollingeri</i> (sårbar - VU - på rødlista 2010) er en av de vakreste
-          beitemarkssoppene, her
-          fotografert ved Oppsal i Vindafjord.
-        </figcaption>
-      </figure>
-      <h2>Spesielle funn i Hordaland</h2>
-      <figure><img src="images/glimt2009/Bomlo_fagerrogn.JPG" width="500" height="375">
-        <figcaption>
-          Fagerrogn <i lang="la">Sorbus meinichii</i>
-          (nær truet - NT - på rødlista 2010) er
-          en slektning av rogn som opprinnelig ble beskrevet fra
-          Mosterhamn i Bømlo. Her er den fotografert på Otrøya i samme
-          kommune. Fagerrogna hadde rikelig med bær i 2009.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Stanknarrevokssopp.JPG" width="500" height="375">
-        <figcaption>
-          Stanknarrevokssopp
-          <i lang="la">Camarophyllopsis
-            foetens</i> (sårbar - VU - på rødlista 2010) ble funnet i kalkrik naturbeitemark på
-          Myra på
-          Spyssøya i Bømlo. Den har en meget ubehagelig lukt som har
-          gitt opphav til både det norske og det latinske navnet.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Kobbertunge_og_oliventunge.JPG" width="500" height="375">
-        <figcaption>
-          Her er kobbertunge
-          <i lang="la">Microglossum
-            fuscorubens</i> og oliventunge <i lang="la">Microglossum olivaceum</i>
-          (begge sårbare - VU - på rødlista 2010)
-          funnet og fotografert ved siden av hverandre i den uvanlig
-          artsrike beitemarka Myra på Spyssøya i Bømlo.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Gul_slimvokssopp.JPG" width="500" height="335">
-        <figcaption>
-          Gul slimvokssopp
-          <i lang="la">Hygrocybe
-            vitellina</i>&nbsp; (sårbar - VU - på rødlista 2010) ble funnet ved Eide (Selsøy) i
-          nordre del av
-          Bømlo. Denne arten er særlig interessant fordi den er
-          oseanisk og i Norge bare forekommer på ytre Vestlandet.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Bomlo_Lepiota_aspera.JPG" width="500" height="375">
-        <figcaption>
-          Stor
-          skjellparasollsopp <i lang="la">Lepiota
-          aspera</i> fotografert ved Mjølkstølen, en tidligere
-          beitemark, nå park ved kirka i Mosterhamn, Bømlo.
-        </figcaption>
-      </figure>
-      <h2>Spesielle funn i Oppdal</h2>
-      <figure><img src="images/glimt2009/Oppdal_svartkurle1.JPG" width="500" height="375">
-        <figcaption>
-          Svartkurle <i lang="la">
-          Nigritella nigra</i> (sterkt truet - EN - på rødlista 2010) forekommer i et lite
-          område
-          i Sør-Norge, og Oppdal er en av de viktigste kommunene. De
-          skjøtselsavhengige lokalitetene i bygda blir nå overvåket og
-          planmessig skjøttet.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Oppdal_svartkurle2.JPG" width="500" height="375">
-        <figcaption>
-          Her er en svartkurlelokalitet som var i
-          ferd med å gro igjen med buskas, som er fint ryddet i 2009
-          av kvinna på bildet.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Oppdal_hostmarinokkel.JPG" width="500" height="375">
-        <figcaption>
-          Høstmarinøkkel <i lang="la">Botrychium
-          multifidum</i> (sårbar - VU - på rødlista 2010) ble i 2009 funnet for første gang i
-          Oppdal.
-          Denne arten er sjelden og står også på Bern-konvensjonens
-          lister.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Oppdal_gyllen_vokssopp.JPG" width="500" height="375">
-        <figcaption>
-          Gyllen vokssopp <i lang="la">Hygrocybe
-          aurantiosplendens</i> (nær truet - NT - på rødlista 2010) er en kalkkrevende
-          beitemarkssopp som
-          i 2009 ble funnet flere steder, bl.a. i nedre del av
-          Vinstradalen.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Oppdal_roykkollesopp.JPG" width="500" height="375">
-        <figcaption>
-          Røykkøllesopp <i lang="la">Clavaria fumosa</i>
-          (nær truet - NT - på rødlista 2010)
-          ble funnet i naturbeitemark ved Vesl-Løkkja nederst i
-          Vinstradalen.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Oppdal_Entoloma_weholtii.JPG" width="500" height="375">
-        <figcaption>
-          <i lang="la">Entoloma weholtii</i> er ble første
-          gang bekrevet fra Bamble i Telemark (typelokalitet, oppkalt
-          etter finneren Øyvind Weholt). Denne lokaliteten er nå
-          trolig ødelagt, men arten ble i 2009 funnet i kalkrik
-          naturbeitemark ved Ørstad i Oppdal, altså den eneste intakte
-          vokseplassen i landet. Arten står som sterkt truet (EN) på
-          rødlista 2010. Den er ellers kjent fra Danmark og
-          Spania.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Oppdal_praktrodskivesopp.JPG" width="500" height="375">
-        <figcaption>
-          Praktrødskivesopp
-          <i lang="la">Entoloma bloxamii</i>
-          har en av landets beste bestander i beitemarkene på begge
-          sider av alpinbakkene på Slettvoll. Denne arten er kravfull,
-          kalkkrevende og sjelden og forekommer som regel bare i de
-          mest artsrike beitemarkene. Den står som sårbar - VU - på
-          rødlista 2010.
-        </figcaption>
-      </figure>
-      <h2>ARKO-prosjektet <br>
-        (Arealer for Rødlistearter, Kartlegging og Overvåking),</h2>
-
-      <h2>Sør-Norge og Trøndelag</h2>
-      <figure><img src="images/glimt2009/Kragero_morkskjellet_vokssopp.JPG" width="500"
-                   height="375">
-        <figcaption>
-          Mørkskjellet
-          vokssopp <i lang="la">Hygrocybe
-          turunda</i> ble funnet i naturbeitemark på Østre Gumøy i
-          Kragerø-skjærgården. Den står som nær truet (NT) på rødlista
-          2010.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Kragero_vrangtunge.JPG" width="500" height="375">
-        <figcaption>
-          Vrangtunge <i lang="la">Microglossum
-          atropurpureum</i> (sårbar - VU - på rødlista 2010) vokste i kalkrik naturbeitemark på
-          Østre
-          Gumøy i Kragerø-skjærgården.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Rod_honningvokssopp.JPG" width="500" height="375">
-        <figcaption>
-          Rød
-          honningvokssopp <i lang="la">Hygrocybe
-          splendidissima</i> er en art som stort sett forekommer
-          langs kysten av Vestlandet og Nord-Norge. Her er den
-          fotografert i artsrike kystbeiter på Hornsetstranda ved
-          Fosnavåg i Herøy, Møre og Romsdal. Arten står som sårbar
-          (VU) på rødlista 2010.<br>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/Levanger_rodnende_lutvokssopp.JPG" width="500"
-                   height="375">
-        <figcaption>
-          Rødnende
-          lutvokssopp <i lang="la">Hygrocybe
-          ingrata</i> er her fotografert i naturbeitemark sør for Li
-          i Inderøy, Nord-Trøndelag. Arten står som sårbar (VU) på
-          rødlista 2010.<p></p>
-        </figcaption>
-      </figure>
-      <h2>Andre mosebilder</h2>
-      <figure><img src="images/glimt2009/Bekkelommemose.jpg" width="500" height="335">
-        <figcaption>
-          Bekkelommemose <i lang="la">Fissidens
-          polyphyllus</i> er i Norge bare kjent fra et lite område på
-          Sørvestlandet, nærmere bestemt <span class="csstext">
-					Flekkefjord i Vest-Agder og Lund i Rogaland. Mosen på bildet
-					ble i 2009 gjenfunnet på en kjent lokalitet i Ystebøbekken,
-					Flekkefjord komune i Aust-Agder. Den står som sterkt truet
-					(EN) på rødlista 2010.<br>
-              </span>
-        </figcaption>
-      </figure>
-      <figure><img src="images/glimt2009/PrakttvebladmoseVinter.JPG" width="500" height="375">
-        <figcaption>
-          Prakttvebladmose
-          <i lang="la">Scapania
-            ornithopodioides </i>ved Herskedal i Eide, innefrosset i en
-          issvull i november 2009. Denne mosen er oseanisk, dvs.
-          knyttet til et fuktig og vintermildt klima. Lokaliteten på
-          bildet er en av de nordligste som er kjent.
-        </figcaption>
-      </figure>
-    </div>
-    <div class="clear-both"></div>
-  </div>
-
-  <!-- #EndEditable --></div>
-
-</body>
-
-<!-- #EndTemplate -->
-
-</html>
+﻿<!DOCTYPE html>
+<html lang="nb">
+
+
+<!-- #BeginTemplate "index.dwt" -->
+
+<head>
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<!-- #BeginEditable "doctitle" -->
+
+  <title>Glimt fra artsmangfoldet 2009 | Biolog J.B. Jordal</title>
+<!-- #EndEditable -->
+<link href="styles/style.css" rel="stylesheet" type="text/css" />
+<script async="" src="js/main.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<header>
+  <img alt="Biolog John Bjarne Jordal" class="photo" src="images/jbj.png">
+  <div class="header-text">
+    <p class="header-name">John Bjarne Jordal</p>
+    <p class="header-slogan">&nbsp;</p>
+  </div>
+  <button class="hamburger-menu-button" onclick="toggleMobileMenu();">
+  <img alt="Meny" src="images/hamburger-menu.png"></button>
+</header>
+<nav id="nav-desktop" role="navigation">
+  <div class="menuitem">
+    <a href="/">Virksomhet </a></div>
+  <div class="menuitem">
+    <a href="/prosjekter.html">Aktuelle prosjekter </a></div>
+  <div class="menuitem">
+    <a href="/publikasjoner.html">Publikasjoner </a></div>
+  <div class="menuitem">
+    <a href="/glimt14.html">Glimt fra artsmangfoldet </a></div>
+  <div class="menuitem">
+    <a href="/kontakt.html">Kontakt </a></div>
+  <div class="menuitem" style="width: 2px;">
+  </div>
+</nav>
+<nav id="nav-mobile" role="navigation">
+  <div class="menuitem">
+    <a href="/">Virksomhet </a></div>
+  <div class="menuitem">
+    <a href="/prosjekter.html">Aktuelle prosjekter </a></div>
+  <div class="menuitem">
+    <a href="/publikasjoner.html">Publikasjoner </a></div>
+  <div class="menuitem">
+    <a href="/glimt14.html">Glimt fra artsmangfoldet </a></div>
+  <div class="menuitem">
+    <a href="/kontakt.html">Kontakt </a></div>
+</nav>
+<div id="content">
+  <!-- #BeginEditable "content" -->
+
+
+
+  <h1>Glimt fra artsmangfoldet</h1>
+
+  <div id="glimtcontainer">
+    <div id="tidsperiode">
+      <a href="glimt14.html">2014</a><br>
+      <a href="glimt13.html">2013</a><br>
+      <a href="glimt12.html">2012</a><br>
+      <a href="glimt11.html">2011</a><br>
+      <a href="glimt10.html">2010</a><br>
+      <span class="valgt_periode">2009</span><br>
+      <a href="glimt08.html">2008</a><br>
+    </div>
+    <div id="tidsperiode-mobile">
+      <label for="select-year">Velg år:</label>
+      <select id="select-year"
+              onchange="document.getElementById('go-to-year-button').removeAttribute('disabled')">
+        <option value="glimt14.html">2014</option>
+        <option value="glimt13.html">2013</option>
+        <option value="glimt12.html">2012</option>
+        <option value="glimt11.html">2011</option>
+        <option value="glimt10.html">2010</option>
+        <option value="glimt09.html" selected>2009</option>
+        <option value="glimt08.html">2008</option>
+      </select>
+      <button type="button" id="go-to-year-button" disabled
+              onclick="navigateTo(document.getElementById('select-year').value)">
+        Gå til
+      </button>
+    </div>
+
+    <div id="bildeliste">
+      <h2>Spesielle funn i Rogaland</h2>
+      <figure><img alt="" src="images/glimt2009/Ruteskorpe.JPG" width="500" height="375">
+        <figcaption>
+          Ruteskorpe <i lang="la">Xylobolus frustulatus</i>
+          er en soppart på død ved av eik. Her er den avbildet på eik
+          ved Hausvikkammen i Strand kommune. Dette er en østlandsart
+          som det er få funn av på Vestlandet. Den står som nær truet
+          (NT) på rødlista 2010.<br>
+          <br>
+        </figcaption>
+      </figure>
+      <figure><img alt="" src="images/glimt2009/Punktlav.JPG" width="500" height="375">
+        <figcaption>
+          Grå punktlav <i lang="la">Punctelia subrudecta</i>
+          var tidligere kjent fra svartor ved Riskadalsvatnet i
+          Hjelmeland, og ble gjenfunnet i 2009. Dette er en sjelden,
+          sørlig-oseanisk lavart. Den står som sterkt truet (EN) på rødlista 2010.<br>
+          <br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Thelopsis_rubella.jpg" width="500" height="403">
+        <figcaption>
+          <i lang="la">Thelopsis rubella </i>er en
+          skorpelav uten norsk navn som ofte vokser på styva ask, her
+          ved Riskadalsvatnet i Hjelmeland. Den har bl.a. rødbrune
+          fruktlegemer og finnes mest på Sørvestlandet. Den står som
+          sårbar (VU) på rødlista 2010.<br>
+          <br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Indigobarksopp.JPG" width="500" height="375">
+        <figcaption>
+          Indigobarksopp <i lang="la">Pulcherricium
+          caeruleum</i> er en ganske sjelden vestlandsart som her er
+          fotografert på morken ved av svartor ved Riskadalsvatnet i
+          Hjelmeland. Den står som nær truet (NT) på rødlista 2010.<br>
+          <br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/OvreTysdalsvatnet.JPG" width="500" height="375">
+        <figcaption>
+          Ved Øvre Tysdalsvatnet i Hjelmeland
+          finnes landets største bestand av kløftgrimemose <i lang="la">Herbertus
+          aduncus</i>, her er en kløft hvor denne mosen danner
+          rødbrune tuer på berget, i et meget fuktig og vintermildt
+          klima.<br>
+          <br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Oyafossen.JPG" width="500" height="375">
+        <figcaption>
+          I fossesprøytsonen
+          ved Øyafossen i Trodla-Tysdal, Hjelmeland, finnes denne
+          bestanden av kløftgrimemose <i lang="la">Herbertus aduncus</i> (NT) og purpurmose (<i lang="la">Pleurozia
+          purpurea</i>). Det foreligger utbyggingsplaner for
+          vassdraget.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Gra_narremusserong.JPG" width="500" height="375">
+        <figcaption>
+          I Trodla-Tysdal,
+          Hjelmeland, finnes noen av de mest artsrike og velutviklete
+          naturbeitemarkene i Rogaland med hensyn til beitemarkssopp,
+          her den sjeldne grå narremusserong <i lang="la">Porpoloma metapodium</i>
+          (sterkt truet - EN - på rødlista 2010).<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Slimjordtunge.JPG" width="500" height="375">
+        <figcaption>
+          Slimjordtunge <i lang="la">Geoglossum difforme </i>
+          (sterkt truet - EN - på rødlista 2010)
+          er en av de sjeldneste jordtungene. I Trodla-Tysdal,
+          Hjelmeland, ble det funnet en ny, rikelig bestand av denne
+          arten.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Kystkorallav.JPG" width="500" height="375">
+        <figcaption>
+          Kystkorallav <i lang="la">Bunodophoron
+          melanocarpum</i> (nær truet -NT - på rødlista 2010) er en oseanisk lavart som finnes
+          på
+          bergvegger i fuktig og vintermildt lokalklima på Vestlandet,
+          her fotografert sør for Rettedal i Forsand.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Fiolett_greinkollesopp.JPG" width="500" height="375">
+        <figcaption>
+          Fiolett
+          greinkøllesopp <i lang="la">Clavaria
+          zollingeri</i> (sårbar - VU - på rødlista 2010) er en av de vakreste
+          beitemarkssoppene, her
+          fotografert ved Oppsal i Vindafjord.
+        </figcaption>
+      </figure>
+      <h2>Spesielle funn i Hordaland</h2>
+      <figure><img src="images/glimt2009/Bomlo_fagerrogn.JPG" width="500" height="375">
+        <figcaption>
+          Fagerrogn <i lang="la">Sorbus meinichii</i>
+          (nær truet - NT - på rødlista 2010) er
+          en slektning av rogn som opprinnelig ble beskrevet fra
+          Mosterhamn i Bømlo. Her er den fotografert på Otrøya i samme
+          kommune. Fagerrogna hadde rikelig med bær i 2009.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Stanknarrevokssopp.JPG" width="500" height="375">
+        <figcaption>
+          Stanknarrevokssopp
+          <i lang="la">Camarophyllopsis
+            foetens</i> (sårbar - VU - på rødlista 2010) ble funnet i kalkrik naturbeitemark på
+          Myra på
+          Spyssøya i Bømlo. Den har en meget ubehagelig lukt som har
+          gitt opphav til både det norske og det latinske navnet.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Kobbertunge_og_oliventunge.JPG" width="500" height="375">
+        <figcaption>
+          Her er kobbertunge
+          <i lang="la">Microglossum
+            fuscorubens</i> og oliventunge <i lang="la">Microglossum olivaceum</i>
+          (begge sårbare - VU - på rødlista 2010)
+          funnet og fotografert ved siden av hverandre i den uvanlig
+          artsrike beitemarka Myra på Spyssøya i Bømlo.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Gul_slimvokssopp.JPG" width="500" height="335">
+        <figcaption>
+          Gul slimvokssopp
+          <i lang="la">Hygrocybe
+            vitellina</i>&nbsp; (sårbar - VU - på rødlista 2010) ble funnet ved Eide (Selsøy) i
+          nordre del av
+          Bømlo. Denne arten er særlig interessant fordi den er
+          oseanisk og i Norge bare forekommer på ytre Vestlandet.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Bomlo_Lepiota_aspera.JPG" width="500" height="375">
+        <figcaption>
+          Stor
+          skjellparasollsopp <i lang="la">Lepiota
+          aspera</i> fotografert ved Mjølkstølen, en tidligere
+          beitemark, nå park ved kirka i Mosterhamn, Bømlo.
+        </figcaption>
+      </figure>
+      <h2>Spesielle funn i Oppdal</h2>
+      <figure><img src="images/glimt2009/Oppdal_svartkurle1.JPG" width="500" height="375">
+        <figcaption>
+          Svartkurle <i lang="la">
+          Nigritella nigra</i> (sterkt truet - EN - på rødlista 2010) forekommer i et lite
+          område
+          i Sør-Norge, og Oppdal er en av de viktigste kommunene. De
+          skjøtselsavhengige lokalitetene i bygda blir nå overvåket og
+          planmessig skjøttet.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Oppdal_svartkurle2.JPG" width="500" height="375">
+        <figcaption>
+          Her er en svartkurlelokalitet som var i
+          ferd med å gro igjen med buskas, som er fint ryddet i 2009
+          av kvinna på bildet.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Oppdal_hostmarinokkel.JPG" width="500" height="375">
+        <figcaption>
+          Høstmarinøkkel <i lang="la">Botrychium
+          multifidum</i> (sårbar - VU - på rødlista 2010) ble i 2009 funnet for første gang i
+          Oppdal.
+          Denne arten er sjelden og står også på Bern-konvensjonens
+          lister.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Oppdal_gyllen_vokssopp.JPG" width="500" height="375">
+        <figcaption>
+          Gyllen vokssopp <i lang="la">Hygrocybe
+          aurantiosplendens</i> (nær truet - NT - på rødlista 2010) er en kalkkrevende
+          beitemarkssopp som
+          i 2009 ble funnet flere steder, bl.a. i nedre del av
+          Vinstradalen.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Oppdal_roykkollesopp.JPG" width="500" height="375">
+        <figcaption>
+          Røykkøllesopp <i lang="la">Clavaria fumosa</i>
+          (nær truet - NT - på rødlista 2010)
+          ble funnet i naturbeitemark ved Vesl-Løkkja nederst i
+          Vinstradalen.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Oppdal_Entoloma_weholtii.JPG" width="500" height="375">
+        <figcaption>
+          <i lang="la">Entoloma weholtii</i> er ble første
+          gang bekrevet fra Bamble i Telemark (typelokalitet, oppkalt
+          etter finneren Øyvind Weholt). Denne lokaliteten er nå
+          trolig ødelagt, men arten ble i 2009 funnet i kalkrik
+          naturbeitemark ved Ørstad i Oppdal, altså den eneste intakte
+          vokseplassen i landet. Arten står som sterkt truet (EN) på
+          rødlista 2010. Den er ellers kjent fra Danmark og
+          Spania.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Oppdal_praktrodskivesopp.JPG" width="500" height="375">
+        <figcaption>
+          Praktrødskivesopp
+          <i lang="la">Entoloma bloxamii</i>
+          har en av landets beste bestander i beitemarkene på begge
+          sider av alpinbakkene på Slettvoll. Denne arten er kravfull,
+          kalkkrevende og sjelden og forekommer som regel bare i de
+          mest artsrike beitemarkene. Den står som sårbar - VU - på
+          rødlista 2010.
+        </figcaption>
+      </figure>
+      <h2>ARKO-prosjektet <br>
+        (Arealer for Rødlistearter, Kartlegging og Overvåking),</h2>
+
+      <h2>Sør-Norge og Trøndelag</h2>
+      <figure><img src="images/glimt2009/Kragero_morkskjellet_vokssopp.JPG" width="500"
+                   height="375">
+        <figcaption>
+          Mørkskjellet
+          vokssopp <i lang="la">Hygrocybe
+          turunda</i> ble funnet i naturbeitemark på Østre Gumøy i
+          Kragerø-skjærgården. Den står som nær truet (NT) på rødlista
+          2010.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Kragero_vrangtunge.JPG" width="500" height="375">
+        <figcaption>
+          Vrangtunge <i lang="la">Microglossum
+          atropurpureum</i> (sårbar - VU - på rødlista 2010) vokste i kalkrik naturbeitemark på
+          Østre
+          Gumøy i Kragerø-skjærgården.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Rod_honningvokssopp.JPG" width="500" height="375">
+        <figcaption>
+          Rød
+          honningvokssopp <i lang="la">Hygrocybe
+          splendidissima</i> er en art som stort sett forekommer
+          langs kysten av Vestlandet og Nord-Norge. Her er den
+          fotografert i artsrike kystbeiter på Hornsetstranda ved
+          Fosnavåg i Herøy, Møre og Romsdal. Arten står som sårbar
+          (VU) på rødlista 2010.<br>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/Levanger_rodnende_lutvokssopp.JPG" width="500"
+                   height="375">
+        <figcaption>
+          Rødnende
+          lutvokssopp <i lang="la">Hygrocybe
+          ingrata</i> er her fotografert i naturbeitemark sør for Li
+          i Inderøy, Nord-Trøndelag. Arten står som sårbar (VU) på
+          rødlista 2010.<p></p>
+        </figcaption>
+      </figure>
+      <h2>Andre mosebilder</h2>
+      <figure><img src="images/glimt2009/Bekkelommemose.jpg" width="500" height="335">
+        <figcaption>
+          Bekkelommemose <i lang="la">Fissidens
+          polyphyllus</i> er i Norge bare kjent fra et lite område på
+          Sørvestlandet, nærmere bestemt <span class="csstext">
+					Flekkefjord i Vest-Agder og Lund i Rogaland. Mosen på bildet
+					ble i 2009 gjenfunnet på en kjent lokalitet i Ystebøbekken,
+					Flekkefjord komune i Aust-Agder. Den står som sterkt truet
+					(EN) på rødlista 2010.<br>
+              </span>
+        </figcaption>
+      </figure>
+      <figure><img src="images/glimt2009/PrakttvebladmoseVinter.JPG" width="500" height="375">
+        <figcaption>
+          Prakttvebladmose
+          <i lang="la">Scapania
+            ornithopodioides </i>ved Herskedal i Eide, innefrosset i en
+          issvull i november 2009. Denne mosen er oseanisk, dvs.
+          knyttet til et fuktig og vintermildt klima. Lokaliteten på
+          bildet er en av de nordligste som er kjent.
+        </figcaption>
+      </figure>
+    </div>
+    <div class="clear-both"></div>
+  </div>
+
+  <!-- #EndEditable --></div>
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
